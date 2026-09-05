@@ -1,0 +1,44 @@
+.container {
+    background: #25258f;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#home-score {
+    background: #080808;
+    color: #ff3333;
+    font-size: 70px;
+    font-family: monospace;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+#guest-score {
+    background: #080808;
+    color: #ff3333;
+    font-size: 70px;
+    font-family: monospace;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+button {
+    background: transparent;
+    color: white;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: goldenrod;
+    box-shadow: -3px 3px 6px black;
+}
